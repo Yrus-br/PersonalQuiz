@@ -13,7 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().backgroundColor = .systemBrown
+        UISlider.appearance().tintColor = .orange
+        UISlider.appearance().thumbTintColor = .gray
+        UIButton.appearance().tintColor = .orange
+        UIBarButtonItem.appearance().tintColor = .black
+        UIProgressView.appearance().tintColor = .orange
+        UISwitch.appearance().onTintColor = .orange
+        UISwitch.appearance().isOn = false
+        
         return true
     }
 
